@@ -1,7 +1,7 @@
 # main text of home
 name: Sergio Giménez Antón
-title: Sergio Giménez
-bio: bio todo
+title: Sergio Giménez Antón
+bio: Passionate about networks, coding, travelling and hiking
 
 # twitter summary info
 description: A blog about me and my random thoughts
@@ -41,6 +41,7 @@ twitter: https://twitter.com/sergiogimenez6
 linkedin: https://www.linkedin.com/in/sergio-gimant/
 github: https://github.com/sergio-gimenez
 email: sergiogimenezanton@gmail.com
+unsplash: https://unsplash.com/@xexunas
 
 authors:
   sergiogimenez:
