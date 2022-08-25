@@ -27,8 +27,13 @@ On my free time I volunteer on cooperation tech projects. Currently deploying an
 
 Full detailed list at my [Google Scholar profile](https://scholar.google.com/citations?user=o9sbhDUAAAAJ ).
 
-[**Prototype and benchmark of a RINA-based virtual networking solution for Virtual Network Functions (VNFs)**](https://upcommons.upc.edu/handle/2117/365664)
-S Giménez, E Grasa, J Perelló.
+[**RINA-based virtual networking solution for distributed VNFs: Prototype and Benchmarking**](https://doi.org/10.1109/EuCNC/6GSummit54941.2022.9815620)  
+[**Presentation Slides**](https://docs.google.com/presentation/d/14nE28oQDCBKJZPWMoKhaY3q6QnKHM4LiRpXq3POpQaI/edit?usp=sharing)  
+S Giménez, E Grasa, C Fernández, S Siddiqui  
+_2022 - IEEE EuCNC 2022 6G Summit_
+
+[**Prototype and benchmark of a RINA-based virtual networking solution for Virtual Network Functions (VNFs)**](https://upcommons.upc.edu/handle/2117/365664)  
+S Giménez, E Grasa, J Perelló.  
 _2022 - UPC, Barcelona, Spain._
  
 [**A Proof of Concept implementation of a RINA interior router using P4-enabled software targets**](https://ieeexplore.ieee.org/document/9059486)  
