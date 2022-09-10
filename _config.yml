@@ -18,8 +18,8 @@ dark-theme: auto
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://drive.google.com/file/d/1dkqlgmSi58QloQAywo4f8vO_aukPJr2r/view?usp=sharing
+resume-external: false
+resume-url: /assets/resume.pdf
 
 url: https://sergiogimenez.com
 # your url: https://USERNAME.github.io
