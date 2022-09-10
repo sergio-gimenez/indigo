@@ -18,37 +18,39 @@ Lately, I have been diving into quantum computing and it feels something complet
 
 | Probability | Outcome |
 | ----------- | ------- |
-| $p$         | 0       |
-| $1-p$       | 1       |
+| $$ p $$     | $$0$$   |
+| $$1-p$$     | $$1$$   |
 
-When we measure a qubit (read operation) we determine its state, i.e. it collapses either to 0 or 1.
+When we measure a qubit (read operation) we determine its state, i.e. it collapses either to $$0$$ or $$1$$.
 
 Important consequences of a `read` operation:
- 
+
 * We can only read once.
 * Reading is destructive: we cannot copy states.
 
-### Quantum state made of $n$ qubits
+### Quantum state made of $$n$$ qubits
 
-Let's say we have a sequence of $n$ qubits. Now, if every qubit is 0 and 1 at the same time, we are going to have in a single classical register (that contains the $n$ qubits) $2^{n}$ results at the same time. In other words, in classical computing you need to generate the bit sequence you want in order to have them. In quantum computing, all these states are there at the same time, and you just pick the one you want.
+Let's say we have a sequence of $$n$$ qubits. Now, if every qubit is $$0$$ and $$1$$ at the same time, we are going to have in a single classical register (that contains the $$n$$ qubits) $$2^{n}$$ results at the same time. In other words, in classical computing you need to generate the bit sequence you want in order to have them. In quantum computing, all these states are there at the same time, and you just pick the one you want.
 
 An example of the previous explanation with 4 qubits / 4 bits.
 
-![clipboard.png](inkdrop://file:Dh3DdsiFL)
+![4bits_superposition](/assets/images/quantum_summary/4bits_superposition.jpeg)
 *Lu, Xiaowei & Jiang, Nan & Hu, Hao & Ji, Zhuoxiao. (2018). Quantum Adder for Superposition States. International Journal of Theoretical Physics. 57. 10.1007/s10773-018-3779-2.*
 
 ### Entanglement
 
-A vague intuition: When $n$ qubits are entangled, they suddenly become strongly correlated. When operations are applied to one qubit, at the same time something also applies to the other qubit.
+A vague intuition: When $$n$$ qubits are entangled, they suddenly become strongly correlated. When operations are applied to one qubit, at the same time something also applies to the other qubit.
 
 ### A Quantum Program
 
-This probabilites we talked previously can be manipluated using gates. Then, as happens with linear circuits, programming with quantum can be understood as solving linear systems: we have a probability (qubit) that is modified by appliying linear transformations (gates).
+This probabilites we talked previously can be manipluated using gates, such as `OR`, `XOR`, `AND` gates from classical circuits. Then, as happens with linear circuits, programming with quantum can be understood as solving linear systems: we have a probability (qubit) that is modified by appliying linear transformations (gates).
 
 ### Why Quantum?
-In very simple terms, quantum computing is not necessarily faster than classical computing, but due to quantum mechanics, quantum computing has some “special” properties that allow to do things that classical computers cimply can’t.
 
-Some applications:
+In very simple terms, quantum computing is not necessarily faster than classical computing, but due to quantum mechanics, quantum computing has some _“special”_ properties that allow to do things that classical computers simply can’t.
+
+Some _special_ applications quantum computers can do:
+
   * **Superdense coding**. Intuition: transport two classical bits using one qubit.
   * **Man in the Middle attack**. Intuition: just by reading a qubit, you're already collapsing its state. IOW, the attacker listening to a quantum conversation, won't see anything in clear. This somehow applies to Quantum Key Distribution.
 
@@ -58,7 +60,6 @@ Some applications:
 * **Sensors**:  Higher-precision clock synchronization.
 * **Distributed Quantum Computation**: Individual quantum processors are networked to carry out quantum information processing tasks in a coordinated way.
  
-
 ## What is a Quantum Network?
 
 ### Basic Concepts
