@@ -11,7 +11,8 @@ I work doing Internet related reseach at [i2cat](https://i2cat.net/).
 
 * Spanish Project [Open-VERSO](https://www.openverso.org/en/), participant for the horizontal networking platform (Sep. 2020- Today):
   * Participated in the design of the interconnectivity for the federated testbeds.
-  * Implemented a [RINA](https://pouzinsociety.org/) (Recursive InterNetwork Architecture) stack from scratch based on high performance packet processing framework ([Netmap](http://info.iet.unipi.it/~luigi/netmap/)). 
+  * Implemented a [RINA](https://pouzinsociety.org/) (Recursive InterNetwork Architecture) stack from scratch based on high performance packet processing framework ([Netmap](http://info.iet.unipi.it/~luigi/netmap/)).
+  * Implemented an Intent Engine for verticals in Self-Organizing Networks.
 
 * NG-SDN in private partnerships, participant (Sept. 2019 - January 2020):
   * Implemented a hardware dataplane for a RINA router using P4 language.
